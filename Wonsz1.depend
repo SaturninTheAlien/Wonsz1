@@ -1,0 +1,145 @@
+# depslib dependency file v1.0
+1546185198 source:/home/saturnin/ANSI_C/wonsz/Wonsz1/ANZ_Image.c
+	"ANZ_Image.h"
+
+1546181670 /home/saturnin/ANSI_C/wonsz/Wonsz1/ANZ_Image.h
+	<stdio.h>
+	<SDL2/SDL.h>
+	<SDL2/SDL_image.h>
+	<SDL2/SDL_ttf.h>
+	"ANZ_Sprite.h"
+
+1546200668 source:/home/saturnin/ANSI_C/wonsz/Wonsz1/main.c
+	"ANZ_Image.h"
+	"snake.h"
+	"game_gui.h"
+	"level.h"
+
+1546178948 source:/home/saturnin/ANSI_C/wonsz/Wonsz1/snake.c
+	"snake.h"
+	<math.h>
+
+1546175510 /home/saturnin/ANSI_C/wonsz/Wonsz1/snake.h
+	"ANZ_Image.h"
+
+1546188506 /home/saturnin/ANSI_C/wonsz/Wonsz1/ANZ_Sprite.h
+	<SDL2/SDL.h>
+	<stdio.h>
+
+1546188585 source:/home/saturnin/ANSI_C/wonsz/Wonsz1/ANZ_Sprite.c
+	"ANZ_Sprite.h"
+
+1546185424 source:/home/saturnin/ANSI_C/wonsz/Wonsz1/game_gui.c
+	"game_gui.h"
+
+1546184543 /home/saturnin/ANSI_C/wonsz/Wonsz1/game_gui.h
+	"ANZ_Image.h"
+
+1546200408 source:/home/saturnin/ANSI_C/wonsz/Wonsz1/level.c
+	"level.h"
+	<string.h>
+
+1546199650 /home/saturnin/ANSI_C/wonsz/Wonsz1/level.h
+	"ANZ_Image.h"
+
+1547998726 source:/home/saturnin/AnsiC/Wonsz/ANZ_Image.c
+	"ANZ_Image.h"
+
+1546181670 /home/saturnin/AnsiC/Wonsz/ANZ_Image.h
+	<stdio.h>
+	<SDL2/SDL.h>
+	<SDL2/SDL_image.h>
+	<SDL2/SDL_ttf.h>
+	"ANZ_Sprite.h"
+
+1546762468 /home/saturnin/AnsiC/Wonsz/ANZ_Sprite.h
+	<SDL2/SDL.h>
+	<stdio.h>
+	<stdlib.h>
+
+1547827062 source:/home/saturnin/AnsiC/Wonsz/ANZ_Sprite.c
+	"ANZ_Sprite.h"
+
+1547982573 source:/home/saturnin/AnsiC/Wonsz/game_gui.c
+	"game_gui.h"
+
+1547671295 /home/saturnin/AnsiC/Wonsz/game_gui.h
+	"ANZ_Image.h"
+
+1548874457 source:/home/saturnin/AnsiC/Wonsz/level.c
+	"level.h"
+	"entitySpawner.h"
+	<string.h>
+	<memory.h>
+	"apple.h"
+	"spider.h"
+	"snake.h"
+
+1548868417 /home/saturnin/AnsiC/Wonsz/level.h
+	"ANZ_Image.h"
+	"AbstractEntity.h"
+
+1549188473 source:/home/saturnin/AnsiC/Wonsz/snake.c
+	"snake.h"
+	"particle.h"
+	"game_gui.h"
+	<math.h>
+
+1549137577 /home/saturnin/AnsiC/Wonsz/snake.h
+	"AbstractEntity.h"
+
+1549146376 source:/home/saturnin/AnsiC/Wonsz/main.c
+	<string.h>
+	<libgen.h>
+	<unistd.h>
+	"ANZ_Image.h"
+	"AbstractEntity.h"
+	"snake.h"
+	"game_gui.h"
+	"level.h"
+	"apple.h"
+	"spider.h"
+
+1549131861 /home/saturnin/AnsiC/Wonsz/AbstractEntity.h
+	"ANZ_Image.h"
+	"entitySpawner.h"
+
+1549131877 source:/home/saturnin/AnsiC/Wonsz/AbstractEntity.c
+	"AbstractEntity.h"
+
+1549132084 source:/home/saturnin/AnsiC/Wonsz/particle.c
+	"particle.h"
+	"snake.h"
+
+1547917764 /home/saturnin/AnsiC/Wonsz/particle.h
+	"AbstractEntity.h"
+
+1549137731 source:/home/saturnin/AnsiC/Wonsz/spider.c
+	"spider.h"
+	"snake.h"
+
+1548868318 /home/saturnin/AnsiC/Wonsz/spider.h
+	"AbstractEntity.h"
+
+1546763391 source:/home/saturnin/AnsiC/Wonsz/AbstractEntityData.c
+	"AbstractEntityData.h"
+
+1546763391 /home/saturnin/AnsiC/Wonsz/AbstractEntityData.h
+	"ANZ_Image.h"
+
+1549132148 source:/home/saturnin/AnsiC/Wonsz/apple.c
+	"apple.h"
+	"snake.h"
+	<math.h>
+
+1547828088 /home/saturnin/AnsiC/Wonsz/apple.h
+	"AbstractEntity.h"
+
+1547922570 source:/home/saturnin/AnsiC/Wonsz/entitySpawner.c
+	"entitySpawner.h"
+	<stdio.h>
+	<string.h>
+	<stdlib.h>
+
+1547827908 /home/saturnin/AnsiC/Wonsz/entitySpawner.h
+

@@ -1,0 +1,4 @@
+LevelName:level1.png
+Position:200 300
+Spawner:Spider 1054 345
+Spawner:Spider 750 500

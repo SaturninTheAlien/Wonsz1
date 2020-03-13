@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="Wonsz1" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/Wonsz1" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="./Wonsz1" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Option use_console_runner="0" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+		</Compiler>
+		<Linker>
+			<Add option="-lSDL2 -lSDL2_image -lSDL2_ttf" />
+		</Linker>
+		<Unit filename="ANZ_Image.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="ANZ_Image.h" />
+		<Unit filename="ANZ_Sprite.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="ANZ_Sprite.h" />
+		<Unit filename="AbstractEntity.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="AbstractEntity.h" />
+		<Unit filename="apple.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="apple.h" />
+		<Unit filename="assets/maps/level0.sm" />
+		<Unit filename="assets/maps/level1.sm" />
+		<Unit filename="entitySpawner.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="entitySpawner.h" />
+		<Unit filename="game_gui.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="game_gui.h" />
+		<Unit filename="level.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="level.h" />
+		<Unit filename="main.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="particle.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="particle.h" />
+		<Unit filename="snake.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="snake.h" />
+		<Unit filename="spider.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="spider.h" />
+		<Extensions>
+			<code_completion />
+			<debugger />
+			<envvars />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

@@ -1,0 +1,21 @@
+Wonsz1 is a snake style 2D video game.
+
+WARNING: DO NOT DELETE ./assets direcory, because it is necessary for the correct operation of the program.
+
+Usage:
+-> -h / -help         |- view the help file {assets/help.txt}.
+-> -v / -version      |- view the program version.
+-> -vel snakeVelocity |- set snake velocity [pixels per render] (default:3) 
+-> -level "LevelName" |- run the game with selected level prototype,
+which has to be located in /assets/maps/ directory.
+{for example ./Wonsz1 -level level1.sm}
+Default prototype is "level0.sm".
+
+Libraries used in the project:
+-> SDL2         https://www.libsdl.org/
+-> SDL2_image   https://www.libsdl.org/projects/SDL_image/
+-> SDL2_mixer   https://www.libsdl.org/projects/SDL_mixer/
+-> SDL2_ttf     https://www.libsdl.org/projects/SDL_ttf/
+
+Snake picture on the start screen:
+http://www.skywriting.net/inspirational/humor/who_is_afraid_of_a_little_garden_snake.html
