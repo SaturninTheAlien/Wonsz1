@@ -243,7 +243,7 @@ int main(int argc,char**argv)
     int quit=0;
 
     ANZ_Image*startScreen=ANZ_LoadImage("assets/start_screen.png");
-    if(!loadAllAssets(levelName) || startScreen==0)
+    if(!loadAllAssets() || startScreen==0)
     {
         fprintf(stderr,"Unable to load all assets\n");
         return 4;

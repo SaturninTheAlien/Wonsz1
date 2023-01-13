@@ -120,7 +120,7 @@ void ANZ_RenderImageX(ANZ_Image*image,int posX,int posY,double angle, SDL_Point*
 }
 void ANZ_RenderImageF(ANZ_Image*image,int posX,int posY,SDL_RendererFlip rendererFlip)
 {
-    ANZ_RenderImageR(image,posX,posY,rendererFlip,0.0d,0,0);
+    ANZ_RenderImageR(image,posX,posY,rendererFlip,0.0,0,0);
 }
 void ANZ_RenderImageR(ANZ_Image*image,int x, int y, SDL_RendererFlip flip, double angle, SDL_Point* center, SDL_Rect* clip)
 {

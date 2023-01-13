@@ -12,11 +12,11 @@ LD = g++
 WINDRES = windres
 
 INC = 
-CFLAGS = -Wall
+CFLAGS = -Wall -I`sdl2-config --prefix`/include
 RESINC = 
 LIBDIR = 
 LIB = 
-LDFLAGS = -lSDL2 -lSDL2_image -lSDL2_ttf
+LDFLAGS = -L`sdl2-config --prefix`/lib -lSDL2 -lSDL2_image -lSDL2_ttf
 
 
 
